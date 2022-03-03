@@ -1,0 +1,203 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;   /* nasledovanie from parents */
+}
+
+/* header */
+.header {
+position: absolute;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+}
+
+
+/* logo */
+.logo {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 20px;
+top: 20px;
+}
+
+/* Vector */
+{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+background: #FFFFFF;
+}
+
+/* nav */
+.nav {
+position: absolute;
+height: 50px;
+left: 59.03%;
+right: 6.25%;
+top: 20px;
+}
+
+/* Skills */
+.skills {
+position: absolute;
+height: 50px;
+left: 6%;
+right: 84.2%;
+top: 0px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
+
+color: #FFFFFF;
+}
+
+/* Portfolio */
+.portfolio {
+position: absolute;
+height: 50px;
+left: 21.8%;
+right: 62%;
+top: 0px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
+
+color: #FFFFFF;
+}
+
+/* switch-lng */
+.switch-lng {
+position: absolute;
+height: 50px;
+left: 93.75%;
+right: 1.39%;
+top: 20px;
+}
+
+/* en */
+.en {
+position: absolute;
+width: 25px;
+height: 50px;
+left: calc(50% - 25px/2 - 22.5px);
+top: 0px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
+
+text-align: center;
+
+color: #BDAE82;
+}
+
+
+/* hero-title */
+.hero-title {
+position: absolute;
+height: 120px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 120px;
+/* identical to box height, or 200% */
+
+color: #FFFFFF;
+}
+
+ /* hero-text */
+.hero-text {
+position: absolute;
+height: 120px;
+left: 0%;
+right: 6%;
+top: 130px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+color: #FFFFFF;
+}
+
+
+/* btn */
+.btn {
+position: absolute;
+height: 55px;
+left: 0%;
+right: 56%;
+top: 275px;
+}
+
+/* Rectangle */
+.rectangle {
+  position: absolute;
+  height: 55px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  
+  background: #BDAE82;
+  border-radius: 0px;
+  }
+  
+
+/* Hire me */
+.hire-me {
+position: absolute;
+width: 75px;
+height: 40px;
+left: calc(50% - 75px/2 + 0.5px);
+top: 8px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #000000;
+}
+
+/* bg */
+ {
+  position: absolute;
+  width: 1440px;
+  height: 910px;
+  left: 0px;
+  top: 0px;
+  
+  background: url(header-bg.jpg);
+  }
+

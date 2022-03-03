@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title> Portfolio </title>
+</head>
+<body>
+
+ <!--Header-->
+
+ <header class="header">
+ <div class="container">
+
+<div class="logo">
+</div>
+
+   <nav class="nav">
+     <ul class="nav-list">
+       
+       <li class="nav-item">
+         <a href="#skills" class="nav-link"> Skills </a>
+       </li>
+       <li class="nav-item">
+         <a href="#portfolio" class="nav-link"> Portfolio </a>
+       </li>
+       <li class="nav-item">
+         <a href="#video" class="nav-link"> Video </a>
+       </li>
+       <li class="nav-item">
+         <a href="#price" class="nav-link"> Price </a>
+       </li>
+       <li class="nav-item">
+       <a href="#contacts" class="nav-link"> Contacts </a>
+     </li>
+
+     </ul>
+   </nav>
+
+   
+<div class="switch-lng">
+<p class="en"> en </p>
+<p> / </p>
+<p class="ru"> ru </p>
+</div>
+
+ </div>
+</header>
+
+<!--Main Area-->
+
+<main> 
+
+<section class="hero"> 
+
+<div class="hero-title">
+Alexa Rise
+</div>
+
+<div class="hero-text">
+Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
+</div>
+
+<button class="btn">
+  <div class="rectangle">
+<div class="hire-me">
+Hire me
+</div>
+  </div>
+</button>
+
+</section>
+
+<section class="skills"> Skills </section>
+
+<section class="portfolio"> Portfolio </section>
+
+<section class="video"> Video </section>
+
+<section class="price"> Price </section>
+
+<section class="contacts"> Contacts </section>
+
+</main>
+
+<footer> 
+
+  <div class="year">
+2022
+  </div>
+
+</footer>
+
+  
+</body>
+
+<script>
+function injectCss(file = 'style.css') {
+  fetch(file)
+    .then((response) => response.text())
+    .then((data) => {
+      let stl = document.createElement('style');
+      stl.innerHTML = data;
+      document.head.appendChild(stl);
+    });
+}
+
+function injectAll() {
+  let links = document.getElementsByTagName('link');
+  for (stl of links) {
+    injectCss(stl.href);
+  }
+}
+
+window.onload = injectAll;
+</script>
+
+</html>
