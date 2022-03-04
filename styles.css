@@ -6,13 +6,76 @@ html {
 box-sizing: inherit;   /* nasledovanie from parents */
 }
 
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: rgb(233, 71, 49);
+}
+
+.wrapper {
+  max-width: 1440px;
+   margin: 0 auto;  /* vuravnivanie po centry contenta*/
+}
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header_nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_nav-item {
+  margin-right: 30px;
+}
+
+/* .header_nav-item: :last-child {
+  margin-right: 0px;
+} */
+
+.header_nav-link {
+  /* font-family: Inter;
+  font-style: normal;
+  font-weight: normal; */
+  font-size: 20px;
+  line-height: 50px;
+  /* identical to box height, or 250% */
+  
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+.header_nav-link:hover,
+.header_nav-link:focus,
+.header_nav-link:active {
+  opacity: .75;
+  /*color: #5d7260;      /* pri navedenii */
+}
+
+
 /* header */
 .header {
-position: absolute;
+/* position: absolute;
 width: 1440px;
 height: 90px;
 left: 0px;
+top: 0px; */
+
+position: fixed;
 top: 0px;
+left: 0px;
+width: 100%;
+
+background-color: #b498987a;
 }
 
 
@@ -44,6 +107,31 @@ left: 59.03%;
 right: 6.25%;
 top: 20px;
 }
+
+.nav-link {
+  text-decoration: none;    /* no podcherkivaniia */
+  color: #829985;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: #5d7260;      /* pri navedenii */
+}
+
+/* .nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+
+  transition: .3s;
+} */
 
 /* Skills */
 .skills {
