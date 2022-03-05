@@ -38,9 +38,9 @@ body {
   margin-right: 30px;
 }
 
-/* .header_nav-item: :last-child {
+.header_nav-item:last-child {
   margin-right: 0px;
-} */
+}
 
 .header_nav-link {
   /* font-family: Inter;
