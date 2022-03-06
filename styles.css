@@ -10,10 +10,11 @@ body {
   font-family: 'Inter', sans-serif;
   /* font-family: 'Merriweather', serif; */
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 40px;
   font-weight: normal;
-  color: rgb(233, 71, 49);
+
+  color: #FFFFFF;
 }
 
 .wrapper {
@@ -24,16 +25,14 @@ body {
 /* Header styles start */
 
 .header {
-  /* position: absolute;
-  width: 1440px;
-  height: 90px;
-  left: 0px;
-  top: 0px; */
-  
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
+  /* width: 1440px; */
+  /* height: 90px; */
+
+  background-color: coral;
   }
 
 .header_wrapper {
@@ -43,6 +42,14 @@ body {
   justify-content: space-between;
   padding-top: 20px;
 }
+
+/* logo */
+.header_logo {
+  /* width: 50px;
+  height: 50px; */
+  padding-left: 20px;
+  /* margin-top: 20px; */
+  }
 
 .header_nav-list {
   display: flex;
@@ -58,16 +65,11 @@ body {
 }
 
 .header_nav-link {
-  /* font-family: Inter;
-  font-style: normal;
-  font-weight: normal; */
-  font-size: 20px;
   line-height: 50px;
-  /* identical to box height, or 250% */
-  
-  color: #FFFFFF;
+
   text-decoration: none;
   /* transition: color 0.5s; */
+  color: #FFFFFF;
 }
 
 .header_nav-link:hover,
@@ -77,6 +79,20 @@ body {
   /*color: #5d7260;      /* pri navedenii */
 }
 
+/* switch-lng */
+#switch-lng {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  
+  text-align: center;
+  }
+
+/* en */
+#en {
+  color: #BDAE82;
+  }
+
 /* Header styles end */
 
 
@@ -84,26 +100,97 @@ body {
 /* Hero styles start */
 
 .hero {
-  height: 100vh;
-  background: url(./assets/bg.png) no-repeat center;
-  background-size: cover;
+  /* height: 100vh; */
+  background-color: cadetblue;
+  /* background: url(./assets/bg.png) no-repeat center;
+  background-size: cover; */
+
+height: 330px;
+width: 500px;
+
+margin-left: 80px;
+margin-top: 250px;
 }
+
+
+/* hero-title */
+.hero-title {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 120px;
+  
+  color: #FFFFFF;
+  }
+  
+   /* hero-text */
+  .hero-text {
+  /* position: absolute;
+  height: 120px;
+  left: 0%;
+  right: 6%;
+  top: 130px; */
+  
+  /* font-family: Inter;
+  font-style: normal;
+  font-weight: normal; */
+
+  margin-top: 10px;
+width: 120px;
+
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  
+  color: #FFFFFF;
+  }
+  
+  
+  /* btn */
+  .btn {
+  /* position: absolute;
+  height: 55px;
+  left: 0%;
+  right: 56%;
+  top: 275px; */
+  margin-top: 25px;
+  }
+  
+  /* Rectangle */
+  .rectangle {
+    /* position: absolute;
+    height: 55px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    background: #BDAE82;
+    border-radius: 0px; */
+    }
+    
+  
+  /* Hire me */
+  .hire-me {
+  /* position: absolute;
+  width: 75px;
+  height: 40px;
+  left: calc(50% - 75px/2 + 0.5px);
+  top: 8px; */
+  
+  /* font-family: Inter;
+  font-style: normal;
+  font-weight: normal; 
+  font-size: 20px;
+  line-height: 40px;
+  */
+  text-align: center;
+  
+  color: #000000;
+  }
 
 /* Hero styles end */
 
-
-
-
-
-
-/* logo */
-.logo {
-position: absolute;
-width: 50px;
-height: 50px;
-left: 20px;
-top: 20px;
-}
 
 /* Vector */
 {
@@ -116,14 +203,6 @@ bottom: 10%;
 background: #FFFFFF;
 }
 
-/* nav */
-.nav {
-position: absolute;
-height: 50px;
-left: 59.03%;
-right: 6.25%;
-top: 20px;
-}
 
 /* .nav-list {
   display: flex;
@@ -140,151 +219,7 @@ top: 20px;
   transition: .3s;
 } */
 
-/* Skills */
-.skills {
-position: absolute;
-height: 50px;
-left: 6%;
-right: 84.2%;
-top: 0px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 50px;
-/* identical to box height, or 250% */
-
-color: #FFFFFF;
-}
-
-/* Portfolio */
-.portfolio {
-position: absolute;
-height: 50px;
-left: 21.8%;
-right: 62%;
-top: 0px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 50px;
-/* identical to box height, or 250% */
-
-color: #FFFFFF;
-}
-
-/* switch-lng */
-.switch-lng {
-position: absolute;
-height: 50px;
-left: 93.75%;
-right: 1.39%;
-top: 20px;
-}
-
-/* en */
-.en {
-position: absolute;
-width: 25px;
-height: 50px;
-left: calc(50% - 25px/2 - 22.5px);
-top: 0px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 50px;
-/* identical to box height, or 250% */
-
-text-align: center;
-
-color: #BDAE82;
-}
-
-
-/* hero-title */
-.hero-title {
-position: absolute;
-height: 120px;
-left: 0%;
-right: 0%;
-top: 0px;
-
-font-family: Merriweather;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 120px;
-/* identical to box height, or 200% */
-
-color: #FFFFFF;
-}
-
- /* hero-text */
-.hero-text {
-position: absolute;
-height: 120px;
-left: 0%;
-right: 6%;
-top: 130px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 40px;
-/* or 200% */
-
-color: #FFFFFF;
-}
-
-
-/* btn */
-.btn {
-position: absolute;
-height: 55px;
-left: 0%;
-right: 56%;
-top: 275px;
-}
-
-/* Rectangle */
-.rectangle {
-  position: absolute;
-  height: 55px;
-  left: 0%;
-  right: 0%;
-  top: 0px;
-  
-  background: #BDAE82;
-  border-radius: 0px;
-  }
-  
-
-/* Hire me */
-.hire-me {
-position: absolute;
-width: 75px;
-height: 40px;
-left: calc(50% - 75px/2 + 0.5px);
-top: 8px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 40px;
-/* identical to box height, or 200% */
-
-text-align: center;
-
-color: #000000;
-}
-
+/
 /* bg */
  {
   position: absolute;
