@@ -31,8 +31,6 @@ body {
   width: 100%;
   /* width: 1440px; */
   /* height: 90px; */
-
-  background-color: coral;
   }
 
 .header_wrapper {
@@ -100,18 +98,25 @@ body {
 /* Hero styles start */
 
 .hero {
-  height: 100vh;
-  /* background-color: cadetblue; */
-  background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/img/bg.jpg) no-repeat center;
+  /* height: 100vh; */
+
+  /* background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center;  */
+  /* background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/img/bg.jpg) no-repeat center; */
   /* background: url(./assets/img/bg.jpg) no-repeat center; */
-  background-size: cover;
+  /* background-size: cover; */
 
 /* height: 330px;
 width: 500px;
 
 margin-left: 80px;*/
 /* margin-top: 250px;  */
+background-color: aqua;
 }
+
+/* .hero_wrapper {
+  margin-left: 80px;
+ margin-top: 250px;  
+} */
 
 
 /* hero-title */
@@ -232,3 +237,18 @@ background: #FFFFFF;
   background: url(header-bg.jpg);
   }
 
+.footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+  background-color: coral;
+  color: blue;
+}
+
+.footer-data {
+  display: flex;
+flex-wrap: wrap;
+
+}
