@@ -11,7 +11,7 @@ body {
   /* font-family: 'Merriweather', serif; */
   font-style: normal;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 50px;
   font-weight: normal;
 
   color: #FFFFFF;
@@ -63,8 +63,6 @@ body {
 }
 
 .header_nav-link {
-  line-height: 50px;
-
   text-decoration: none;
   /* transition: color 0.5s; */
   color: #FFFFFF;
@@ -80,9 +78,6 @@ body {
 /* switch-lng */
 #switch-lng {
   font-weight: bold;
-  font-size: 20px;
-  line-height: 50px;
-  
   text-align: center;
   }
 
@@ -118,114 +113,46 @@ background-color: aqua;
  margin-top: 250px;  
 } */
 
-
-/* hero-title */
 .hero-title {
   font-family: 'Merriweather', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
   line-height: 120px;
-  
-  color: #FFFFFF;
   }
   
-   /* hero-text */
   .hero-text {
-  /* position: absolute;
-  height: 120px;
-  left: 0%;
-  right: 6%;
-  top: 130px; */
-  
-  /* font-family: Inter;
-  font-style: normal;
-  font-weight: normal; */
-
+  /* height: 120px;
+  top: 130px;  */
   /* margin-top: 10px;
 width: 120px; */
-
   font-size: 20px;
   line-height: 40px;
-  /* or 200% */
-  
-  color: #FFFFFF;
   }
   
-  
-  /* btn */
   .btn {
-  /* position: absolute;
   height: 55px;
-  left: 0%;
-  right: 56%;
-  top: 275px; */
-  margin-top: 25px;
+  top: 275px; 
+  /* margin-top: 25px; */
   }
   
-  /* Rectangle */
   .rectangle {
-    /* position: absolute;
-    height: 55px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-    
     background: #BDAE82;
-    border-radius: 0px; */
+    border-radius: 0px; 
     }
     
-  
-  /* Hire me */
   .hire-me {
-  /* position: absolute;
-  width: 75px;
-  height: 40px;
-  left: calc(50% - 75px/2 + 0.5px);
-  top: 8px; */
-  
-  /* font-family: Inter;
-  font-style: normal;
-  font-weight: normal; 
-  font-size: 20px;
   line-height: 40px;
-  */
   text-align: center;
   
   color: #000000;
   }
 
+
 /* Hero styles end */
 
 
-/* Vector */
-{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 10%;
-bottom: 10%;
 
-background: #FFFFFF;
-}
-
-
-/* .nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  list-style: none;
-}
-
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
-
-  transition: .3s;
-} */
-
-/
 /* bg */
  {
   position: absolute;
@@ -237,18 +164,44 @@ background: #FFFFFF;
   background: url(header-bg.jpg);
   }
 
+
+  /* Footer styles start */
+
 .footer {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+align-items: center;
+ 
+  /* padding-top: 50px; */
 
+  background-color: black;
 
-  background-color: coral;
-  color: blue;
+  height: 150px;
+  
 }
 
 .footer-data {
   display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
 
+width: 182px;
+padding-left: 20px;
 }
+
+.github1 {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.social-list {
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+width: 188px;
+padding-right: 20px;
+}
+
+/* Footer styles end */
