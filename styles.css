@@ -102,14 +102,15 @@ body {
 .hero {
   height: 100vh;
   /* background-color: cadetblue; */
-  background: url(./assets/img/bg.jpg) no-repeat center;
+  background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/img/bg.jpg) no-repeat center;
+  /* background: url(./assets/img/bg.jpg) no-repeat center; */
   background-size: cover;
 
 /* height: 330px;
 width: 500px;
 
 margin-left: 80px;*/
-margin-top: 250px; 
+/* margin-top: 250px;  */
 }
 
 
