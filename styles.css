@@ -100,16 +100,16 @@ body {
 /* Hero styles start */
 
 .hero {
-  /* height: 100vh; */
-  background-color: cadetblue;
-  /* background: url(./assets/bg.png) no-repeat center;
-  background-size: cover; */
+  height: 100vh;
+  /* background-color: cadetblue; */
+  background: url(./assets/img/bg.jpg) no-repeat center;
+  background-size: cover;
 
-height: 330px;
+/* height: 330px;
 width: 500px;
 
-margin-left: 80px;
-margin-top: 250px;
+margin-left: 80px;*/
+margin-top: 250px; 
 }
 
 
@@ -136,8 +136,8 @@ margin-top: 250px;
   font-style: normal;
   font-weight: normal; */
 
-  margin-top: 10px;
-width: 120px;
+  /* margin-top: 10px;
+width: 120px; */
 
   font-size: 20px;
   line-height: 40px;
