@@ -152,14 +152,23 @@ border-radius: 0px;
 
 background-size: cover;
   padding-top: 60px;
-  padding-right: 20px;
+  padding-left: 970px;
 }
 
-#contacts-form_info {
+.contact_me {
+  font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 80px;
+color: #BDAE82;
+}
+
+.contacts-form_info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-end;
+  /* align-items: flex-end; */
 }
 
 .contacts-form_field {
@@ -174,15 +183,27 @@ line-height: 40px;
 color: #BDAE82;
 }
 
+.contacts-form_message {
+  width: 450px;
+  height: 100px;
+  color: #BDAE82;
+  margin-bottom: 30px;
+}
+
 .contacts-form_submit {
   width: 220px;
   padding: 8px 40px 7px 40px;
-  /* padding-right: 250px; */
+  /* margin-right: 250px; */
 
-  background: rgba(0, 0, 0, 0.5);
-/* border: 2px solid #BDAE82; */
-/* box-sizing: border-box;
-border-radius: 0px; */
+  background: #BDAE82;
+border-radius: 0px;
+
+font-size: 20px;
+line-height: 40px;
+
+/* text-align: center; */
+
+color: #000000;
 }
 
 
