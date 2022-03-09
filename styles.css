@@ -157,7 +157,8 @@ border: 0;   /* zero borders*/
 /* Video styles start */
 
 .video {
-  width: 100%;
+  max-width: 1440px;
+  /* width: 100%; */
 }
 
 .video_wrapper {
@@ -176,6 +177,9 @@ border: 0;   /* zero borders*/
   text-align: center;
   
   color: #BDAE82;
+
+  margin-top: 100px;
+  margin-bottom: 60px;
   
 }
 
@@ -275,15 +279,31 @@ color: #000000;
   /* Footer styles start */
 
 .footer {
-display: flex;
+/* display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-align-items: center;
+align-items: center; */
+
+padding: 50px 0;
  
-  /* padding-top: 50px; */
-  height: 150px;
+  /* height: 150px; */
 }
 
+.footer_wraper {
+  max-width: 1440px;
+   margin: 0 auto;    /* vuravnivanie po centry contenta */
+}
+
+.footer_item {
+  display: flex;
+flex-wrap: wrap;
+}
+
+.footer_nav_social-list {
+  display: flex;
+flex-wrap: wrap;
+}
+/* 
 .footer-data {
   display: flex;
 flex-wrap: wrap;
@@ -291,20 +311,20 @@ justify-content: space-between;
 
 width: 182px;
 padding-left: 20px;
-}
+} */
 
-.github1 {
+/* .github1 {
   text-decoration: none;
   color: #FFFFFF;
-}
+} */
 
-.social-list {
+/* .social-list {
   display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 
 width: 188px;
 padding-right: 20px;
-}
+} */
 
 /* Footer styles end */
