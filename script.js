@@ -1,1 +1,11 @@
-console.log('hello!')
+// samovuzuv. function when window.pageYOffset > 50 px
+(function () {
+const header = document.querySelector('.header');
+window.onscroll = () => {
+  if (window.pageYOffset > 50) {
+    header.classList.add('header_active');
+  } else {
+    header.classList.remove('header_active');
+  }
+};
+}());

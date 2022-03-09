@@ -15,6 +15,8 @@ body {
   font-weight: normal;
 
   color: #FFFFFF;
+
+  background: #000000;
 }
 
 .wrapper {
@@ -29,6 +31,13 @@ body {
   top: 0px;
   left: 0px;
   width: 100%;
+  transition: .2s linear;  /* plavnui perehod to black background */
+  padding-bottom: 20px;  /* ? */
+  z-index: 999;   /* ? */
+  }
+
+  .header_active {
+    background: #000000;
   }
 
 .header_wrapper {
@@ -79,7 +88,6 @@ body {
   text-align: center;
   }
 
-/* en */
 #en {
   color: #BDAE82;
   }
@@ -91,7 +99,7 @@ body {
 /* Hero styles start */
 
 .hero {
-  min-height: 100vh;
+  min-height: 100vh;  /* no write max-height if change (rise) content */
 
   background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center; 
 
@@ -125,12 +133,12 @@ body {
   .btn {
     padding: 8px 72px 7px 73px;
     font-size: 20px;
-line-height: 40px;
+    line-height: 40px;
 
 color: #000000;
-
 background: #BDAE82;
-border-radius: 0px;
+border: 0;   /* zero borders*/
+/* border-radius: 0px; */
   }
 
   .btn:hover,
@@ -141,6 +149,54 @@ border-radius: 0px;
 
 
 /* Hero styles end */
+
+
+
+
+
+/* Video styles start */
+
+.video {
+  width: 100%;
+}
+
+.video_wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  
+  text-align: center;
+  
+  color: #BDAE82;
+  
+}
+
+.video_item {
+  padding-top: 56.25%;  /* 100%;  /* raschutuvaetcia otnositelno width block, bydet height = width */   /*  16 - 100% , 9 - x , x = 9 * 100 / 16 = 56.25 %   togda bydet priamoygolnik proporcianalno ymenciatcia*/
+}
+
+.video_element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* Video styles end */
+
+
 
 
 /* Contacts styles start */
@@ -225,11 +281,7 @@ justify-content: space-between;
 align-items: center;
  
   /* padding-top: 50px; */
-
-  background-color: black;
-
   height: 150px;
-  
 }
 
 .footer-data {
