@@ -152,7 +152,14 @@ border-radius: 0px;
 
 background-size: cover;
   padding-top: 60px;
-  padding-left: 970px;
+}
+
+.contacts_wrapper {
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  width: 450px;
+  margin-left: auto;
+  /* margin-right: 0; */
 }
 
 .contact_me {
@@ -168,7 +175,6 @@ color: #BDAE82;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* align-items: flex-end; */
 }
 
 .contacts-form_field {
@@ -193,7 +199,6 @@ color: #BDAE82;
 .contacts-form_submit {
   width: 220px;
   padding: 8px 40px 7px 40px;
-  /* margin-right: 250px; */
 
   background: #BDAE82;
 border-radius: 0px;
