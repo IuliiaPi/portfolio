@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,6 +66,8 @@
 
 <main class="main"> 
 
+<div class="container" class="wrapper">
+
 <section class="hero"> 
   <div class="wrapper">
   <h1 class="hero-title"> Alexa Rise </h1>
@@ -94,13 +96,26 @@
   </div>
    </section>
 
-<!--  <section class="price"> Price </section>   -->
 
-<section class="contacts"> 
+ <section class="section" id="price"> 
+
+ <h2 class="section-title">  Price  </h2>
+
+ <div class="price_wrapper">
+
+ 
+  
+ </div>
+</section>  
+
+
+<section class="section" id="contacts"> 
 <div class="contacts_wrapper">
+
   <form class="contacts-form"> 
   <fieldset class="contacts-form_wrap">
     <legend class="contact_me"> Contact me </legend>
+
     <p class="contacts-form_info"> 
       
       <input type="email" name="user-email" class="contacts-form_field" placeholder="E-mail">
@@ -110,18 +125,21 @@
 
       <button type= "submit" class="contacts-form_submit"> Send message </button>
     </p>
+
   </fieldset>
   </form>
   
 </div>
  </section> 
 
+</div>
 </main>
 
 <!--Footer-->
 
 <footer class="footer"> 
-  <div class="footer_wraper">
+<div class="container" class="wrapper">
+
     <div class="footer_item">
   
   <div class="footer-data">
@@ -144,7 +162,7 @@
     </div>
 
     <div class="github">
-    <a href="https://github.com/IuliiaPi" class="github1"> github </a>
+    <a href="https://github.com/IuliiaPi" class="github-link"> github </a>
       </div>
 
   </div>
@@ -156,19 +174,19 @@
 <nav class="footer_nav_social-list">
   <ul class="footer_menu_social-list">
 
-<li class="footer_menu-item" class="inst">
+<li class="footer_menu-item" id="inst">
 <a href="#!" class="footer_menu-link"> inst </a>
 </li>
 
-<li class="footer_menu-item" class="fb">
+<li class="footer_menu-item" id="fb">
 <a href="#!" class="footer_menu-link"> fb </a>
 </li>
 
-<li class="footer_menu-item" class="tw">
+<li class="footer_menu-item" id="tw">
 <a href="#!" class="footer_menu-link"> tw </a>
 </li>
 
-<li class="footer_menu-item" class="pinterest">
+<li class="footer_menu-item" id="pinterest">
 <a href="#!" class="footer_menu-link"> pinterest </a>
 </li>
 

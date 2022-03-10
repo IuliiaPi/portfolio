@@ -15,7 +15,6 @@ body {
   font-weight: normal;
 
   color: #FFFFFF;
-
   background: #000000;
 }
 
@@ -28,6 +27,7 @@ body {
 
 .header {
   position: fixed;
+
   top: 0px;
   left: 0px;
   width: 100%;
@@ -45,6 +45,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
+
   padding-top: 20px;
 }
 
@@ -100,38 +101,38 @@ body {
 
 .hero {
   min-height: 100vh;  /* no write max-height if change (rise) content */
+  padding-top: 250px;
+  padding-left: 80px;
 
   background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center; 
 
   /* background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/img/bg.jpg) no-repeat center; */
   /* background: url(./assets/img/header-bg.jpg) no-repeat center; */
-
   background-size: cover;
-  padding-top: 250px;
-  padding-left: 80px;
 }
 
 .hero-title {
   max-width: 500px;
+  margin-bottom: 10px;
 
   font-family: 'Merriweather', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
   line-height: 120px;
-
-  margin-bottom: 10px;
   }
   
   .hero-text {
     max-width: 470px;
+    margin-bottom: 25px;
+
     font-size: 20px;
     line-height: 40px;
-    margin-bottom: 25px;
   }
   
   .btn {
     padding: 8px 72px 7px 73px;
+
     font-size: 20px;
     line-height: 40px;
 
@@ -162,12 +163,16 @@ border: 0;   /* zero borders*/
 }
 
 .video_wrapper {
+  position: relative;
+
   max-width: 1400px;
   margin: 0 auto;
-  position: relative;
 }
 
 .section-title {
+  margin-top: 100px;
+  margin-bottom: 60px;
+
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
@@ -176,11 +181,7 @@ border: 0;   /* zero borders*/
   
   text-align: center;
   
-  color: #BDAE82;
-
-  margin-top: 100px;
-  margin-bottom: 60px;
-  
+  color: #BDAE82; 
 }
 
 .video_item {
@@ -189,6 +190,7 @@ border: 0;   /* zero borders*/
 
 .video_element {
   position: absolute;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -203,31 +205,42 @@ border: 0;   /* zero borders*/
 
 
 
+/* Price styles start */
+
+
+
+
+
+/* Price styles end */
+
+
+
+
+
 /* Contacts styles start */
 
-.contacts {
+#contacts {
   min-height: 100vh;
-
   background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center; 
-
 background-size: cover;
-  padding-top: 60px;
 }
 
 .contacts_wrapper {
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
   width: 450px;
   margin-left: auto;
-  /* margin-right: 0; */
+  margin-right: 20px;
+  padding-top: 60px;
 }
 
 .contact_me {
+  margin-bottom: 40px;
+
   font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
 line-height: 80px;
+
 color: #BDAE82;
 }
 
@@ -239,7 +252,9 @@ color: #BDAE82;
 
 .contacts-form_field {
   width: 450px;
+  height: 50px;
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 
 .contacts-form_field::placeholder {
@@ -252,23 +267,27 @@ color: #BDAE82;
 .contacts-form_message {
   width: 450px;
   height: 100px;
-  color: #BDAE82;
   margin-bottom: 30px;
+  padding-left: 20px;
+
+  font-size: 20px;
+  line-height: 40px;
+  
+  color: #BDAE82;
 }
 
 .contacts-form_submit {
   width: 220px;
   padding: 8px 40px 7px 40px;
-
-  background: #BDAE82;
+  border: 0;   /* zero borders*/
 border-radius: 0px;
 
-font-size: 20px;
+  font-size: 20px;
 line-height: 40px;
-
 /* text-align: center; */
 
 color: #000000;
+background: #BDAE82;
 }
 
 
@@ -279,52 +298,40 @@ color: #000000;
   /* Footer styles start */
 
 .footer {
-/* display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center; */
-
-padding: 50px 0;
- 
+padding: 50px 20px;
   /* height: 150px; */
-}
-
-.footer_wraper {
-  max-width: 1440px;
-   margin: 0 auto;    /* vuravnivanie po centry contenta */
 }
 
 .footer_item {
   display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
+/* align-items: center; */
 }
 
-.footer_nav_social-list {
-  display: flex;
-flex-wrap: wrap;
-}
-/* 
 .footer-data {
   display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 
 width: 182px;
-padding-left: 20px;
-} */
+}
 
-/* .github1 {
+.github-link {
   text-decoration: none;
   color: #FFFFFF;
-} */
+}
 
-/* .social-list {
+.footer_menu_social-list {
   display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 
 width: 188px;
-padding-right: 20px;
-} */
+}
+
+.footer_menu-link {
+background: #FFFFFF;
+}
 
 /* Footer styles end */
