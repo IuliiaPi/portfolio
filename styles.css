@@ -144,8 +144,22 @@ border: 0;   /* zero borders*/
 
 /* Hero styles end */
 
+.portfolio-btns {
+/* margin: 0 auto; */
+}
 
+.portfolio-btn {
+  background: black;
+border: 2px solid #BDAE82;
+box-sizing: border-box;
+border-radius: 0px;
 
+  font-size: 20px;
+line-height: 40px;
+text-align: center;
+
+color: #BDAE82;
+}
 
 
 /* Video styles start */
@@ -164,7 +178,7 @@ border: 0;   /* zero borders*/
 
 .section-title {
   margin-top: 100px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 
   font-family: Merriweather;
   font-style: normal;
@@ -204,7 +218,26 @@ border: 0;   /* zero borders*/
 .price-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.price-item {
+  width: 450px;
+  height: 505px;
+  margin-right: 25px;
+
+  border: 3px solid #BDAE82;
+box-sizing: border-box;
+border-radius: 0px;
+}
+
+.price-item:last-child {
+  margin-right: 0px;
 }
 
 .price-item-title {
@@ -238,10 +271,6 @@ text-align: center;
 
 .order shooting {
   padding: 8px 39px 7px 39px;
-
-  border: 3px solid #BDAE82;
-box-sizing: border-box;
-border-radius: 0px;
 }
 
 
