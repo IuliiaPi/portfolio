@@ -104,9 +104,7 @@ body {
   padding-top: 250px;
   padding-left: 80px;
 
-  background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center; 
-
-  /* background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/img/bg.jpg) no-repeat center; */
+  background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/header-bg.jpg?raw=true) no-repeat center;
   /* background: url(./assets/img/header-bg.jpg) no-repeat center; */
   background-size: cover;
 }
@@ -222,8 +220,8 @@ border: 0;   /* zero borders*/
 
 #contacts {
   min-height: 100vh;
-  background: url(https://github.com/IuliiaPi/CV/blob/main/assets/svg/myavatar.jpg?raw=true) no-repeat center; 
-background-size: cover;
+  background: url(https://github.com/IuliiaPi/portfolio/blob/master/assets/header-bg.jpg?raw=true) no-repeat center;
+  background-size: cover;
 }
 
 .contacts_wrapper {
