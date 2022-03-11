@@ -32,7 +32,6 @@ body {
   left: 0px;
   width: 100%;
   transition: .2s linear;  /* plavnui perehod to black background */
-  padding-bottom: 20px;  /* ? */
   z-index: 999;   /* ? */
   }
 
@@ -43,18 +42,14 @@ body {
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: space-between;
 
-  padding-top: 20px;
+  padding: 20px;
 }
 
-/* logo */
-.header_logo {
-  /* width: 50px;
-  height: 50px; */
-  padding-left: 20px;
-  /* margin-top: 20px; */
+  .header_logo-pic {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
 .header_nav-list {
@@ -206,8 +201,48 @@ border: 0;   /* zero borders*/
 
 /* Price styles start */
 
+.price-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.price-item-title {
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px;
 
+text-align: center;
+}
+
+.price-item-price {
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 48px;
+
+text-align: center;
+
+color: #BDAE82;
+}
+
+.price-item-text {
+  font-size: 18px;
+line-height: 36px;
+
+text-align: center;
+}
+
+.order shooting {
+  padding: 8px 39px 7px 39px;
+
+  border: 3px solid #BDAE82;
+box-sizing: border-box;
+border-radius: 0px;
+}
 
 
 /* Price styles end */
@@ -298,7 +333,6 @@ background: #BDAE82;
 
 .footer {
 padding: 50px 20px;
-  /* height: 150px; */
 }
 
 .footer_item {
@@ -312,25 +346,27 @@ justify-content: space-between;
   display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-
-width: 182px;
 }
 
-.github-link {
+/* .github-link {
   text-decoration: none;
   color: #FFFFFF;
+} */
+
+.footer-data-item,
+.footer_menu-item {
+  margin-right: 20px; 
+}
+
+.footer_data-item:last-child,
+.footer_menu-item:last-child {
+  margin-right: 0px;
 }
 
 .footer_menu_social-list {
   display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-
-width: 188px;
-}
-
-.footer_menu-link {
-background: #FFFFFF;
 }
 
 /* Footer styles end */
