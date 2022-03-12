@@ -58,7 +58,7 @@ body {
 }
 
 .header_nav-item {
-  margin-right: 30px;
+  margin-right: 30px;  /*otstup from right */
 }
 
 .header_nav-item:last-child {
