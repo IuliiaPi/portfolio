@@ -18,7 +18,7 @@ body {
   background: #000000;
 }
 
-.wrapper {
+.container {
   max-width: 1440px;
    margin: 0 auto;  /* vuravnivanie po centry contenta*/
 }
@@ -78,7 +78,6 @@ body {
   /*color: #5d7260;      /* pri navedenii */
 }
 
-/* switch-lng */
 #switch-lng {
   font-weight: bold;
   text-align: center;
@@ -88,11 +87,14 @@ body {
   color: #BDAE82;
   }
 
+
+
 /* Header styles end */
 
 
 
 /* Hero styles start */
+
 
 .hero {
   min-height: 100vh;  /* no write max-height if change (rise) content */
@@ -144,6 +146,58 @@ border: 0;   /* zero borders*/
 
 /* Hero styles end */
 
+
+
+/* Skills styles start */
+
+
+.skills-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 50px;
+}
+
+skills-item {
+ 
+
+  margin-right: 40px;
+}
+
+.skills-item-title {
+  max-width: 280px;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+}
+
+.skills-item-text {
+  max-width: 280px;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+line-height: 36px;
+text-align: center;
+}
+
+
+/* Skills styles end */
+
+
+
+
+/* Portfolio styles start */
+
+
 .portfolio-btns {
 /* margin: 0 auto; */
 }
@@ -164,7 +218,7 @@ color: #BDAE82;
 
 /* Video styles start */
 
-.video {
+#video {
   max-width: 1440px;
   /* width: 100%; */
 }
