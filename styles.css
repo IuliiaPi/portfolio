@@ -95,6 +95,23 @@ body {
 
 /* Hero styles start */
 
+.section-title {
+  padding-top: 100px;
+  /* margin-top: 100px; */
+  margin-bottom: 60px;
+
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  
+  text-align: center;
+  
+  color: #BDAE82; 
+}
+
+
 
 .hero {
   min-height: 100vh;  /* no write max-height if change (rise) content */
@@ -135,6 +152,7 @@ color: #000000;
 background: #BDAE82;
 border: 0;   /* zero borders*/
 /* border-radius: 0px; */
+transition: all 0.5s ease;    /* easy change property in hover*/
   }
 
   .btn:hover,
@@ -148,12 +166,13 @@ border: 0;   /* zero borders*/
 
 
 
-/* Skills styles start */
+/*  ------------------------------ Skills styles start */
 
 
 .skills-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .skills-item img {
@@ -165,8 +184,6 @@ border: 0;   /* zero borders*/
 }
 
 skills-item {
- 
-
   margin-right: 40px;
 }
 
@@ -195,14 +212,21 @@ text-align: center;
 
 
 
-/* Portfolio styles start */
+/* --------------------------------------   Portfolio styles start */
 
 
 .portfolio-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 /* margin: 0 auto; */
+margin-bottom: 60px;
 }
 
 .portfolio-btn {
+  margin-right: 5px;
+  padding: 8px 73px;
+
   background: black;
 border: 2px solid #BDAE82;
 box-sizing: border-box;
@@ -213,10 +237,18 @@ line-height: 40px;
 text-align: center;
 
 color: #BDAE82;
+transition: all 0.5s ease;
 }
 
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.portfolio-btn:active {
+  color: #000000;
 
-/* Video styles start */
+  background: #BDAE82;
+}
+
+/*  -----------------------------------   Video styles start */
 
 #video {
   max-width: 1440px;
@@ -228,21 +260,6 @@ color: #BDAE82;
 
   max-width: 1400px;
   margin: 0 auto;
-}
-
-.section-title {
-  margin-top: 100px;
-  /* margin-bottom: 60px; */
-
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 80px;
-  
-  text-align: center;
-  
-  color: #BDAE82; 
 }
 
 .video_item {
@@ -267,16 +284,16 @@ color: #BDAE82;
 
 
 
-/* Price styles start */
+/* ----------------------------------     Price styles start */
 
 .price-items {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 
   margin-left:20px;
   margin-right: 20px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-bottom: 100px;
 }
 
@@ -334,7 +351,7 @@ text-align: center;
 
 
 
-/* Contacts styles start */
+/*  -------------------------------------------- Contacts styles start */
 
 #contacts {
   min-height: 100vh;
@@ -405,6 +422,13 @@ line-height: 40px;
 
 color: #000000;
 background: #BDAE82;
+transition: all 0.5s ease;
+}
+
+.contacts-form_submit:hover,
+.contacts-form_submit:focus,
+..contacts-form_submit:active {
+  background: #a0936b;
 }
 
 
