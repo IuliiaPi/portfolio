@@ -111,6 +111,25 @@ body {
   color: #BDAE82; 
 }
 
+/* .section-title {
+  position: relative;
+  padding-left: 30px;
+} */
+
+.section-title::before {
+content: "";
+
+display: block;
+/* position: absolute;
+top: 8px;
+left: 0px; */
+width: 200px;
+height: 5px;
+margin: 20px auto;
+background-color: aqua;
+/* border: 1px solid #BDAE82;
+border-radius: 50%;*/
+} 
 
 
 .hero {
