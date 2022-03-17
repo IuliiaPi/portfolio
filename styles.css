@@ -399,10 +399,17 @@ color: #BDAE82;
 }
 
 .contacts-form_message {
-  width: 450px;
-  height: 100px;
+display: block;
+width: 100%;
+min-height: 100px;
+max-height: 150px;
+padding: 10px 12px;
+border: 1px solid #BDAE82;
+resize: vertical;
+
+  /* width: 450px; */
   margin-bottom: 30px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 
   font-size: 20px;
   line-height: 40px;
@@ -410,11 +417,18 @@ color: #BDAE82;
   color: #BDAE82;
 }
 
+.contacts-form_message:focus {
+  outline: none;
+}
+
 .contacts-form_submit {
-  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+  /* width: 220px; */
   padding: 8px 40px 7px 40px;
   border: 0;   /* zero borders*/
 border-radius: 0px;
+cu
 
   font-size: 20px;
 line-height: 40px;
